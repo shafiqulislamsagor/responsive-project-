@@ -23,7 +23,7 @@ body {
 
 header {
     max-width: 85%;
-    margin: 0 auto;
+    margin: 20px auto;
     padding-top: 50px;
 }
 
@@ -87,7 +87,8 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    margin-top: 45px;
+    margin: 45px 0;
+
 }
 .banner-intru{
     grid-column: span 3;
@@ -129,4 +130,23 @@ header {
 
 .banner-img>img {
     max-width: 100%;
+}
+/* Social media img related */
+.social-media{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.img-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.img-items > img{
+    max-width: 100%;
+}
+hr{
+    border: 1px solid #c7c7c74f;
 }

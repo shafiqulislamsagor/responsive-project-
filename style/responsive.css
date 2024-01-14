@@ -11,6 +11,9 @@
     .menubar-container{
         justify-content: space-between;
     }
+    .logo{
+        flex-grow: 0;
+    }
 }
 @media screen and (min-width:480px) and (max-width:780px) {
     header{
@@ -24,5 +27,8 @@
     }
     .menubar-container{
         justify-content: space-between;
+    }
+    .logo{
+        flex-grow: 0;
     }
 }

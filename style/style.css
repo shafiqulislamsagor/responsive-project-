@@ -18,13 +18,13 @@ html {
 
 /* body parts */
 body {
-    background: #fff;
+    background: #C0CCDA1A, #C0CCDA99, #C0CCDA1A;
 }
 
 header {
     max-width: 85%;
     margin: 20px auto;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 .menubar-container {
@@ -83,16 +83,18 @@ header {
 }
 
 /* banner related */
-.banner-container{
+.banner-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     margin: 45px 0;
 
 }
-.banner-intru{
+
+.banner-intru {
     grid-column: span 3;
 }
+
 .banner-title {
     color: #3A3A3A;
     font-family: Poppins;
@@ -118,6 +120,15 @@ header {
     border-radius: 41px;
     background: #E02C6D;
     border: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.banner-btn:hover {
+    background: rgb(37, 35, 35);
+    color: #E02C6D;
+    outline: 1px solid #E02C6D;
 }
 
 .banner-img {
@@ -131,12 +142,14 @@ header {
 .banner-img>img {
     max-width: 100%;
 }
+
 /* Social media img related */
-.social-media{
+.social-media {
     max-width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 60px;
 }
-.img-items{
+
+.img-items {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -144,9 +157,40 @@ header {
     gap: 40px;
     flex-wrap: wrap;
 }
-.img-items > img{
+
+.img-items>img {
     max-width: 100%;
 }
-hr{
+
+hr {
     border: 1px solid #c7c7c74f;
+}
+
+/* main parts related */
+main {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.popular {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card .img-card  img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    width: 329px;
+    /* flex-shrink: 0; */
+    padding: 17px 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }

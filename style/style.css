@@ -169,7 +169,7 @@ hr {
 /* main parts related */
 main {
     max-width: 70%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .popular {
@@ -181,16 +181,86 @@ main {
     text-align: center;
     margin-bottom: 40px;
 }
-.card .img-card  img{
-    max-width: 100%;
+
+.popular-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card .img-card img {
+    width: 100%;
     object-fit: cover;
+    margin-bottom: 15px;
 }
 
 .card {
-    width: 329px;
-    /* flex-shrink: 0; */
+    width: 90%;
     padding: 17px 15px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-name {
+    color: #18191F;
+    font-family: Poppins;
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.card-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.popular-container>* {
+    margin-bottom: 5px;
+}
+
+.rating-point {
+    color: #5E6366;
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+}
+
+.card-description {
+    color: #787885;
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+}
+
+#id {
+    margin-bottom: 20px;
+}
+
+.more {
+    text-align: right;
+}
+
+#btn {
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: 0;
+    margin: 40px;
+    background-color: transparent;
+    cursor: pointer;
 }

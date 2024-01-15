@@ -32,6 +32,15 @@
     .img-items > img {
         max-width: 15%;
     }
+    main{
+        max-width: 88%;
+    }
+    .card{
+        width: 91%;
+    }
+    .popular-card-container{
+        grid-template-columns: 1fr;
+    }
 }
 @media screen and (min-width:480px) and (max-width:780px) {
     header{
@@ -55,5 +64,14 @@
     }
     .img-items{
         gap: 30px;
+    }
+    main{
+        max-width: 88%;
+    }
+    .card{
+        width: 94%;
+    }
+    .popular-card-container{
+        grid-template-columns: repeat(2,1fr);
     }
 }

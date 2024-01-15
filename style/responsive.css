@@ -41,6 +41,28 @@
     .popular-card-container{
         grid-template-columns: 1fr;
     }
+    .feature-container {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .feature-contain , .feature-img{
+        max-width: 100%;
+    }
+    .feature-title{
+        font-size: 2.4rem;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    .feature-description{
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+    .btn-feature{
+        margin-top: 65px;
+    }
+    .feature-contain{
+        text-align: center;
+    }
 }
 @media screen and (min-width:480px) and (max-width:780px) {
     header{
@@ -73,5 +95,30 @@
     }
     .popular-card-container{
         grid-template-columns: repeat(2,1fr);
+    }
+    .feature-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .feature-img{
+        max-width: 100%;
+    }
+    .feature-contain{
+        max-width: 90%;
+    }
+    .feature-title{
+        font-size: 2.4rem;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    .feature-description{
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+    .btn-feature{
+        margin-top: 65px;
+    }
+    .feature-contain{
+        text-align: center;
     }
 }

@@ -172,6 +172,7 @@ main {
     margin: 50px auto;
 }
 
+/* popular related */
 .popular {
     color: #3A3A3A;
     font-family: Poppins;
@@ -263,4 +264,61 @@ main {
     margin: 40px;
     background-color: transparent;
     cursor: pointer;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+.feature-img {
+    max-width: 35%;
+}
+
+.feature-img>img {
+    max-width: 100%;
+}
+
+.feature-contain {
+    max-width: 62%;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.feature-description {
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 175% */
+}
+
+.btn-feature {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background: #E02C6D;
+    border-radius: 5px;
+    padding: 10px 24px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.btn-feature:hover {
+    background: rgb(37, 35, 35);
+    color: #E02C6D;
+    outline: 1px solid #E02C6D;
 }

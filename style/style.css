@@ -317,8 +317,42 @@ main {
     transition: 0.5s;
     margin-top: 20px;
 }
+
 .btn-feature:hover {
     background: rgb(37, 35, 35);
     color: #E02C6D;
     outline: 1px solid #E02C6D;
+}
+
+/* footer part related */
+footer {
+    background: #0A0826;
+    color: #FFF;
+    margin-top: 100px;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-title {
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.footer-copy {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.img-footer{
+    margin-top: 15px;
+}
+.img-footer > a{
+    margin: 0 5px;
 }
